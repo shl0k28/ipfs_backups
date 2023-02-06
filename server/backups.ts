@@ -23,6 +23,7 @@ class Ipfs_Backups {
         let uploadResponse = await uploadBuffer( JSON.stringify(items), token)
         return uploadResponse
     }
+
 }
 
 export { Ipfs_Backups }

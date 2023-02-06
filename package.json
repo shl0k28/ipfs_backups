@@ -12,7 +12,7 @@
   },
   "scripts": {
     "watch": "tsc -w",
-    "dev": "nodemon dist/index.js"
+    "dev": "nodemon dist/test.js"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.264.0",

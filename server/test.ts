@@ -12,3 +12,5 @@ const main = async () => {
     const res = await backups.backupAwsDynamo('wallet_transactions', lighthouse, 'test_backups')
     console.log(res)
 }
+
+main()
