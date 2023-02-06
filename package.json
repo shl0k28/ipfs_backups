@@ -1,0 +1,7 @@
+{
+  "name": "ipfs.backups",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shlok D. Mange",
+  "license": "MIT"
+}
