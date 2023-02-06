@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.264.0",
-    "@aws-sdk/lib-dynamodb": "^3.264.0"
+    "@aws-sdk/lib-dynamodb": "^3.264.0",
+    "@lighthouse-web3/sdk": "^0.1.12"
   }
 }
