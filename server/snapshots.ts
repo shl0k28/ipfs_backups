@@ -20,6 +20,9 @@ class Ipfs_Backups {
         let dynamo = this.dynamoClient
         const res = await dynamo.scan({ TableName: tableName })
         let items = res.Items
-        let curr_date = new Date()
+        let uploadResponse = await uploadBuffer( JSON.stringify(items), token)
+        return uploadResponse
     }
 }
+
+export { Ipfs_Backups }
